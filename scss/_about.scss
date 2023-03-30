@@ -1,19 +1,5 @@
 // Start About Us Page
 
-.sub-header {
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(../media/background.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: $font-color;
-  h1 {
-    margin: 70px auto;
-  }
-}
-
 .about-us {
   width: 80%;
   margin: auto;

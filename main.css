@@ -1,3 +1,6 @@
+/*
+Start Global Rules
+*/
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +30,19 @@ textarea {
   resize: none;
 }
 
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(media/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.sub-header h1 {
+  margin: 70px auto;
+}
+
 .hero-btn {
   display: inline-block;
   text-decoration: none;
@@ -49,11 +65,15 @@ textarea {
   -o-transition: 0.5s;
 }
 
+/*
+End Global Rules 
+---------------------------------------
+*/
 .header {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://www.siddharthagreenschool.in/submenu/images/banner.png);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(media/banner.png);
   background-position: center;
   background-size: cover;
 }
@@ -280,7 +300,7 @@ nav .fa {
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../media/banner2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(media/banner2.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -320,19 +340,6 @@ nav .fa {
 
 .fa-heart-o {
   color: #f44336;
-}
-
-.sub-header {
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../media/background.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-}
-.sub-header h1 {
-  margin: 70px auto;
 }
 
 .about-us {

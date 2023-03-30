@@ -1,3 +1,7 @@
+/*
+Start Global Rules
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +31,20 @@ textarea {
   resize: none;
 }
 
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(media/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: $font-color;
+  h1 {
+    margin: 70px auto;
+  }
+}
+
 .hero-btn {
   display: inline-block;
   text-decoration: none;
@@ -48,3 +66,8 @@ textarea {
     -o-transition: $transition;
   }
 }
+
+/*
+End Global Rules 
+---------------------------------------
+*/
