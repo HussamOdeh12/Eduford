@@ -1,0 +1,44 @@
+// Start Courses
+
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: $padding-top-section;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-col {
+  flex-basis: 31%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  &:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 767px) {
+  .row {
+    flex-direction: column;
+  }
+  .course {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+// End Courses

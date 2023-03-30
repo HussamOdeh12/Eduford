@@ -1,0 +1,72 @@
+// Start About Us Page
+
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../media/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: $font-color;
+  h1 {
+    margin: 70px auto;
+  }
+}
+
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col {
+  position: relative;
+  flex-basis: 48%;
+  padding: 30px 2px;
+  img {
+    width: 100%;
+  }
+  .title {
+    padding-top: 0;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 600;
+    color: black;
+  }
+  p {
+    padding: 15px 0 25px;
+  }
+}
+
+.red-btn {
+  border: 1px solid $main-color;
+  background-color: transparent;
+  color: $main-color;
+  &:hover {
+    color: $font-color;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-col {
+    .title {
+      font-size: 30px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+
+  .red-btn {
+    position: relative;
+    margin: 25px auto 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+// End About Us Page
